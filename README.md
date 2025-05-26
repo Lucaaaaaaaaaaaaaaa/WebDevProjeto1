@@ -1,36 +1,30 @@
-Ecornélio ♻️
-Pontos de Coleta Seletiva em Cornélio Procópio - PR
+# ♻️ Ecornélio - Mapa de Coleta Seletiva
 
-Um site simples para ajudar a comunidade a encontrar locais de reciclagem na cidade, seguindo a ODS 11 (Cidades Sustentáveis) da ONU.
+Um projeto simples para mapear pontos de coleta seletiva em Cornélio Procópio/PR, alinhado com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 
-🧐 O que é?
-Página web que mostra onde descartar:
+## 📋 Sobre
+Site estático que ajuda moradores a encontrar locais para descarte de:
+- Plástico
+- Vidro
+- Papel
+- Eletrônicos
 
-📦 Plástico
+## 🚀 Tecnologias
+- HTML5
+- CSS3
+- [Font Awesome](https://fontawesome.com/) (ícones)
+- [Google Fonts](https://fonts.google.com/) (tipografia)
 
-🍶 Vidro
+## 👨‍💻 Equipe
+| Nome |
+|------|
+| Luca Comine |
+| Jean Rocha |
+| Nicolas Davelli |
 
-📰 Papel
+## 📄 Licença
+Este projeto está sob licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-🔋 Eletrônicos
+---
 
-🛠 Feito com
-HTML5
-
-CSS3
-
-Ícones do Font Awesome
-
-Fontes do Google Fonts
-
-👥 Time
-Luca Comine
-
-Jean Rocha
-
-Nicolas Davelli
-
-📜 Licença
-Projeto livre para uso - MIT License.
-
-♻️ Ajude Cornélio Procópio a reciclar mais!
+> ♻️ Pequenas atitudes, grandes mudanças! Ajude a tornar Cornélio Procópio mais sustentável.
