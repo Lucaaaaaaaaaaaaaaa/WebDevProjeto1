@@ -1,0 +1,8 @@
+.admin-container { max-width: 600px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; }
+.admin-form input { margin: 0.5rem 0; padding: 0.5rem; width: 100%; }
+.admin-form button { margin-right: 0.5rem; }
+.user-list { margin-top: 2rem; }
+.user-list li { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+.user-list .info { flex: 1; }
+.user-list button { margin-left: 1rem; }
+.search-bar { margin: 1rem 0; }

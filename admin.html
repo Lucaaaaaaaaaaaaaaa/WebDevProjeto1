@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecornélio - Admin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/mainPageStyle.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-recycle"></i> Ecornélio</h1>
+        <p>Administração de Usuários</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="mainPage.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="mainPage.html#pontos"><i class="fas fa-map-marker-alt"></i> Pontos de Coleta</a></li>
+            <li><a href="mainPage.html#como-reciclar"><i class="fas fa-info-circle"></i> Como Reciclar</a></li>
+            <li><a href="mainPage.html#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+            <li><a href="admin.html"><i class="fas fa-user-cog"></i> Admin</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="admin-container">
+            <form id="userForm" class="admin-form">
+                <h2>Cadastrar Usuário</h2>
+                <input type="text" id="nome" placeholder="Nome do usuário" required>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <div>
+                    <button type="submit">Cadastrar</button>
+                    <button type="button" id="limparBtn">Limpar</button>
+                    <button type="button" id="excluirTodosBtn">Excluir Todos</button>
+                </div>
+            </form>
+            <div class="search-bar">
+                <input type="text" id="pesquisa" placeholder="Pesquisar por nome ou e-mail...">
+            </div>
+            <ul id="userList" class="user-list"></ul>
+        </div>
+    </main>
+    <footer id="contato">
+        <div class="social">
+            <a href="#"><i class="fas fa-recycle"></i></a>
+        </div>
+        <p>Grupo 11</p>
+        <div class="cvs">
+            <p><a href="https://lucaaaaaaaaaaaaaaa.github.io/CVWebDev/">Luca Comine</a></p>
+            <p><a href="https://jeanalvesr.github.io/Projeto-web-curriculo/">Jean Rocha</a></p>
+            <p><a href="https://nicknoot.github.io/Curriculo/">Nicolas Davelli</a></p>
+        </div>
+        <p>Todos juntos por uma cidade mais sustentável! ♻️</p>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>
